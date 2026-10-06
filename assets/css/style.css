@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("../fonts/SpaceGrotesk-VariableFont_wght.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+}
+
+header {
+    background-color: #fddb00ff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+}
+
+nav a {
+    color: #313638ff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+h1, h2, h3 {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+section {
+    padding: 40px 10%;
+}
+
+#presentation {
+    background-image: url("../images/misc/pexels-burst-374631.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#services {
+    background-color: #313638ff;
+}
+
+#equipe {
+    background-color: #568ea3ff;
+}
+
+#contact {
+    background-color: #313638ff;
+}
+
+.service, .personne {
+    background-color: #ffffffff;
+    color: #313638ff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.service img, .personne img {
+    width: 200px;
+    max-width: 100%;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 8px 0 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: auto;
+    background-color: #fddb00ff;
+    border: none;
+    padding: 10px 20px;
+}
+
+footer {
+    background-color: #fddb00ff;
+    text-align: center;
+    padding: 30px;
+}
+
+footer img {
+    width: 100px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    section {
+        padding: 30px 5%;
+    }
+}
